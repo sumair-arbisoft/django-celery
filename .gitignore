@@ -1,0 +1,38 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDE-specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Virtual environment
+.env/
+.venv/
+env/
+venv/
+
+# Django-specific files
+*.log
+*.pot
+local_settings.py
+
+# If using SQLite as your database backend
+db.sqlite3
+
+# Directory for user-uploaded media files
+media/
+
+# Directory for collected static files (after collectstatic)
+static/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Test and build related files
+.coverage
+.tox/
+.eggs/
